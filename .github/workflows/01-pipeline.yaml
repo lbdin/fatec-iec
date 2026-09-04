@@ -1,1 +1,13 @@
+on: push
+jobs:
+  meu_primeiro_job:
+    runs-on: ubuntu-latest
+    # ubuntu -24.4, windows-latest, windows-2022
+    # Xcode 10s macOS Swift macOS-latest macOS-14
+    
+steps:
+  - run: echo "Olá, Fatec!!"
+    
 
+
+  
